@@ -1,3 +1,8 @@
+#[no_mangle]
+pub extern fn __cxa_pure_virtual() {
+    loop{};
+}
+
 #[macro_use]
 extern crate neon;
 
